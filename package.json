@@ -1,0 +1,24 @@
+{
+  "name": "cc-extention",
+  "version": "0.1.0",
+  "description": "Claude Code developer experience extension - command risk explanation & screenshot integration",
+  "bin": {
+    "cc-extention": "bin/cc-ext.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "cli",
+    "developer-experience",
+    "hooks"
+  ],
+  "files": [
+    "bin/",
+    "hooks/",
+    "commands/",
+    "lib/"
+  ]
+}
